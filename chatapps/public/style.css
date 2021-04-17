@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border-radius: 10px;
+
 }
 
 body {
@@ -14,54 +16,69 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
-    width: 800px;
-    max-width: 90%;
+
+    width: 500px;
+    height: 500px;
     background: #fff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
 }
 .brand {
     padding: 20px;
     background: #f1f1f1;
     display: flex;
     align-items: center;
+    border: 2px solid red;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .brand h1 {
-    text-transform: uppercase;
     font-size: 20px;
     color: #444;
     margin-left: 10px;
 }
 .message__area{
     height: 500px;
-    padding: 16px;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    padding-top: 40px;
+    border-radius: 20px;
+    border: 2px solid #008ECC;
+    background:  #8CCCCE;
+
+
+
+
+
 }
 textarea {
-    width: 50%;
-    border: none;
+    width: 200px;
+    height: 60px;
     padding: 20px;
+    border-radius: 20px;
     font-size: 16px;
     outline: none;
-    background: #FBFBFB;
+    position: fixed;
+    border: 2px solid #008ECC;
+    bottom:110px
+
 }
 
 .message {
-    padding: 20px; 
-    border-radius: 4px; 
+    padding: 20px;
+    border-radius: 10px;
     margin-bottom: 40px;
     max-width: 300px;
     position: relative;
+
+
 }
 .incoming {
-    background: #8FBBE8;
-    color: #fff;  
+    background: white;
+    color: black;
 }
 .outgoing {
     background: #e9eafd;
-    color: #787986;
+    color: green;
     margin-left: auto;
 }
 .message h4 {
