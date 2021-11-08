@@ -38,28 +38,22 @@ section.chat__section {
 }
 .message__area{
     height: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
     border-radius: 20px;
     border: 2px solid #008ECC;
     background:  #8CCCCE;
-
-
-
-
-
 }
 textarea {
-    width: 200px;
-    height: 60px;
-    padding: 20px;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
     border-radius: 20px;
     font-size: 16px;
-    outline: none;
     position: fixed;
-    border: 2px solid #008ECC;
-    bottom:110px
+    bottom:100px
 
 }
 
@@ -67,7 +61,7 @@ textarea {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 40px;
-    max-width: 300px;
+    max-width:  300px;
     position: relative;
 
 
